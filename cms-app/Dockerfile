@@ -7,7 +7,7 @@ ADD ./wait-for-it.sh ./wait-for-it.sh
 
 LABEL authors="Johann Frei, Dominik Müller"
 LABEL contact="dominik.mueller@informatik.uni-augsburg.de"
-LABEL repository="https://github.com/frankkramer-lab/MISITcms-app"
+LABEL repository="https://github.com/ctrlvmoon/MISITcms-app"
 LABEL license="GNU General Public License v3.0"
 
 #-----------------------------------------------------#
@@ -48,7 +48,7 @@ RUN locale-gen "en_US.UTF-8"
 #                      CMS Setup                      #
 #-----------------------------------------------------#
 # Get CMS repository params
-ARG CMS_REPOSITORY_URL='https://github.com/frankkramer-lab/MISITcms.git'
+ARG CMS_REPOSITORY_URL='https://github.com/ctrlvmoon/MISITcms-app.git'
 ARG CMS_REPOSITORY_BRANCH='master'
 ARG CMS_CHECKOUT=''
 
