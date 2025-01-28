@@ -6,8 +6,8 @@ services:
       context: ./cms-app
       args:
         - CMS_REPOSITORY_URL=https://github.com/ctrlvmoon/MISITcms.git
-        - CMS_REPOSITORY_BRANCH=master
-        - CMS_CHECKOUT=master
+        - CMS_REPOSITORY_BRANCH=fix-overflow
+        - CMS_CHECKOUT=fix-overflow
     command: ./wait-for-it.sh cms-db:5432 -- bash /root/docker-entrypoint.sh
     volumes:
       - ./cms-app/docker-entrypoint.sh:/root/docker-entrypoint.sh:ro
