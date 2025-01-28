@@ -48,7 +48,7 @@ RUN locale-gen "en_US.UTF-8"
 #                      CMS Setup                      #
 #-----------------------------------------------------#
 # Get CMS repository params
-ARG CMS_REPOSITORY_URL='https://github.com/ctrlvmoon/MISITcms-app.git'
+ARG CMS_REPOSITORY_URL='https://github.com/ctrlvmoon/MISITcms.git'
 ARG CMS_REPOSITORY_BRANCH='master'
 ARG CMS_CHECKOUT=''
 
